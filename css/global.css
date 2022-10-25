@@ -1,0 +1,8 @@
+/* use BEM naming convention */
+
+/* The base font for the site must be Verdana. */
+
+.container { 
+    width: 1280px;
+    margin: 0 auto;
+}
