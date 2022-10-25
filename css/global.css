@@ -1,8 +1,98 @@
 /* use BEM naming convention */
 
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    outline: 5px solid purple;
+}
 /* The base font for the site must be Verdana. */
 
 .container { 
     width: 1280px;
     margin: 0 auto;
 }
+
+/* header component */
+
+
+
+/* Each page must have an identical Navigation Bar with the following style:
+
+    The Navigation Bar must be fixed to the top of the page
+    The background color must be #FFFFFF
+    The site logo/wordmark color must be #335576
+    The currently active page must be underlined using the color #DB7A4E */
+
+
+
+
+
+.header__nav {
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    align-items: baseline;
+    width: 90%; /*make sure to check on 1280px screen in inspector */
+justify-content: space-between;
+    /* height: 300px; */
+   
+    /* width: 100%;
+display: flex;
+align-items: baseline;
+justify-content: space-between; */
+    /* use these 3 lines below if position is not fixed */
+    /* display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: space-between; */
+ 
+}
+
+.nav__logo{
+    text-decoration: none;
+    color: #335576;
+    /* margin-left: 2.5rem; */
+}
+
+.nav__menu {
+    list-style-type: none;
+    /* display: inline-block; */
+
+    /* display:flex; */
+    /* height: 80px; */
+    /* justify-content: space-around;
+    align-items: center; */
+    /* display: flex;
+    align-items: center; */
+
+    /* justify-content: center; */
+    /* flex-direction: row; */
+
+}
+
+.menu__elements {
+    display: inline;
+    margin: 0.625rem;
+    /* justify-content: space-between; */
+}
+
+.menu__elements--a-decoration {
+    text-decoration: none;
+}
+
+.menu__elements--active {
+    /* text-decoration:underline;
+    text-decoration-color: #DB7A4E;
+    text-decoration-thickness: auto; */
+    /* text-decoration: underline solid #DB7A4E 20%; */
+    
+    /* code from https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css */
+    border-bottom: 4px solid #DB7A4E;
+    padding-bottom: 10px;
+
+}
+
+
+/* footer component */

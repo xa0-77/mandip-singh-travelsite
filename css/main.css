@@ -1,2 +1,30 @@
 /* use BEM naming convention */
 
+
+
+.main__content {
+    /* to push the body content down
+    code taken from: 
+   https://stackoverflow.com/questions/24639086/navbar-fixed-top-pushes-content-on-page-up  */
+    margin-top: 160px;
+
+}
+
+/* hero component */
+
+
+
+/* Home Page - Hero Section:
+
+    The hero background color must be #FEFAF5
+    The text content must be left aligned
+    The slogan color must be #335576
+    The ‘Get Started’ button background color must be #DB7A4E */
+
+
+
+
+
+
+
+/* recommendations component */
