@@ -6,12 +6,11 @@
     /* to push the body content down
     code taken from: 
    https://stackoverflow.com/questions/24639086/navbar-fixed-top-pushes-content-on-page-up  */
-    margin-top: 160px;
+    margin-top: 80px;
 
 }
 
 /* hero component */
-
 
 
 /* Home Page - Hero Section:
@@ -21,8 +20,67 @@
     The slogan color must be #335576
     The ‘Get Started’ button background color must be #DB7A4E */
 
+.hero--bg-color {
+    background-color: #FEFAF5;
+}
+
+.hero {
+    color: #335576;
+    margin: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.hero__header {
+    width: 44%;
+    text-align: left;
+    display: inline;
+}
+
+.hero__heading--text {
+    padding-bottom: 0;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    display: inline-block;
+    /* width: 60%; */
+}
+
+.hero__slogan {
+    display: inline-block;
+}
 
 
+
+/* hero image */
+.hero__bg-img {
+    background-image: url("../assets/images/hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    background-size: contain;
+    display: inline-block;
+    width: 40%;
+}
+
+
+.hero__button {
+    color: #FFF;
+    text-align: center;
+    background-color:#DB7A4E;
+    border-radius: 15px;
+    /* margin-top: 4rem; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 1.9em;
+    padding-right: 1.9em;
+    position: relative;
+    top: 2rem;
+    text-decoration: none;
+}
 
 
 

@@ -3,12 +3,13 @@
 body {
     font-family: Verdana, Tahoma, sans-serif;
     outline: 5px solid purple;
+    width: 1280px;
 }
 /* The base font for the site must be Verdana. */
 
 .container { 
-    width: 1280px;
-    margin: 0 auto;
+    /* width: 1280px; */
+    /* margin: 0 auto; */
 }
 
 /* header component */
@@ -32,9 +33,11 @@ body {
     top: 0;
     margin-left: 5rem;
     margin-right: 5rem;
+    width: 1280px;
     display: flex;
     align-items: baseline;
-    width: 90%; /*make sure to check on 1280px screen in inspector */
+    /* width: 90%; */
+    /*make sure to check on 1280px screen in inspector */
 justify-content: space-between;
     /* height: 300px; */
    
@@ -53,17 +56,19 @@ justify-content: space-between; */
 .nav__logo{
     text-decoration: none;
     color: #335576;
+    background-color: pink;
     /* margin-left: 2.5rem; */
 }
 
 .nav__menu {
     list-style-type: none;
-    /* display: inline-block; */
-
+    display: inline-block;
+    margin-right: 10rem;
+    
     /* display:flex; */
     /* height: 80px; */
-    /* justify-content: space-around;
-    align-items: center; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
     /* display: flex;
     align-items: center; */
 
@@ -74,8 +79,15 @@ justify-content: space-between; */
 
 .menu__elements {
     display: inline;
-    margin: 0.625rem;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin: 0.625rem; */
     /* justify-content: space-between; */
+}
+
+.menu__element-last {
+    padding-right: 0;
 }
 
 .menu__elements--a-decoration {
