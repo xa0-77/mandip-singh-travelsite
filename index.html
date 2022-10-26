@@ -82,30 +82,41 @@
     </main>
 
     <!-- footer component -->
-    <footer>
-        <section>
-        <h3>Contact</h3>
-        <p>Email</p>
-        <p>info@travelsite.com</p>
+    <footer class="footer">
+        <section class="footer__contact-container">
+        <h3 class="footer__title">Contact</h3>
+        <div class="footer__email-container">
+        <p class="footer__subtitle">Email</p>
+        <p class="footer__email">info@travelsite.com</p>
+    </div>
     </section>
 
-    <section>
-        <h3>Hours</h3>
-        <p>Monday - Friday</p>
-        <p>9:00 AM - 5:00 PM</p>
+    <section class="footer__hours-container">
+        <h3 class="footer__title">Hours</h3>
+        <ul class="footer__hours">
+            <li><p class="footer__subtitle">Monday - Friday</p>
+                <p class="footer__hours--text">9:00 AM - 5:00 PM</p></li>
+        <li class="footer__hours-grouping"><p class="footer__subtitle">Saturday</p>
+            <p class="footer__hours--text">10:00 AM - 4:00 PM</p></li>
+        <li class="footer__hours-grouping"> <p class="footer__subtitle">Sunday</p>
+            <p class="footer__hours--text">Closed</p></li>
+    </ul>
+        
 
-        <p>Saturday</p>
-        <p>10:00 AM - 4:00 PM</p>
+        
 
-        <p>Sunday</p>
-        <p>Closed</p>
+       
     </section>
 
-    <h3>Social</h3>
-    <section>
-    <a href="https://www.instagram.com" rel="external" target="_blank"><img src="./assets/images/icon-instagram.png"></a>
-    <a href="https://www.facebook.com" rel="external" target="_blank"><img src="./assets/images/icon-facebook.png"></a>
-    <a href="https://www.twitter.com" rel="external" target="_blank"><img src="./assets/images/icon-twitter.png"></a>
+    
+    <section class="footer__social-container">
+    <h3 class="footer__title">Social</h3>
+
+    <div class="footer__icons-container">
+    <a href="https://www.instagram.com" rel="external" target="_blank"><img src="./assets/images/icon-instagram.png" class="footer__icon-instagram"></a>
+    <a href="https://www.facebook.com" rel="external" target="_blank"><img src="./assets/images/icon-facebook.png" class="footer__icon-fb"></a>
+    <a href="https://www.twitter.com" rel="external" target="_blank"><img src="./assets/images/icon-twitter.png" class="footer__icon-twitter"></a>
+</div>
 </section>
 
 
