@@ -31,49 +31,62 @@
                 <li class="menu__elements"><a href="../index.html" class="menu__elements--a-decoration">Home</a></li>
                 <li class="menu__elements"><a href="hawaii.html" class="menu__elements--a-decoration menu__elements--active">Hawaii</a></li>
                 <li class="menu__elements"><a href="iceland.html" class="menu__elements--a-decoration">Iceland</a></li>
-                <li class="menu__elements"><a href="greece.html" class="menu__elements--a-decoration menu__element-last">Greece</a></li>
+                <li class="menu__elements menu__element-last"><a href="greece.html" class="menu__elements--a-decoration ">Greece</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- itinerary component -->
-    <main>
-<h1>Hawaii</h1>
+    <main class="main__content">
 
+
+        <section class="destination--bg-hawaii">
+
+<h1 class="destination__heading">Hawaii</h1>
+<div class="card__wrapper">
 <!-- <div>insert hawaii pic as bg img</div> -->
-<h2>Friday</h2>
 
-<ul>
+
+<section class="card__block card card--size card--itinerary">
+<h3 class="itinerary__heading">Friday</h3>
+
+<ul class="card__itinerary-schedule">
     <li>Breakfast</li>
     <li>Lunch</li>
     <li>Dinner</li>
     <li>Snorkeling</li>
 </ul>
+</section>
 
-<h2>Saturday</h2>
+<section class="card__block card card--size card--itinerary">
+<h3 class="itinerary__heading">Saturday</h3>
 
-<ul>
+<ul class="card__itinerary-schedule">
     <li>Breakfast</li>
     <li>Lunch</li>
     <li>Dinner</li>
     <li>Snorkeling</li>
 </ul>
+</section>
 
-<h2>Sunday</h2>
+<section class="card__block card card--size card--itinerary">
+<h3 class="itinerary__heading">Sunday</h3>
 
-<ul>
+<ul class="card__itinerary-schedule">
     <li>Breakfast</li>
     <li>Lunch</li>
     <li>Dinner</li>
     <li>Snorkeling</li>
 </ul>
+</section>
 
-
+</div>
+</section>
 
     </main>
 
     <!-- footer component -->
-    <footer>
+    <!-- <footer>
         <section>
         <h3>Contact</h3>
         <p>Email</p>
@@ -100,6 +113,46 @@
 </section>
 
 
+    </footer> -->
+
+    <footer class="footer footer--position">
+        <section class="footer__contact-container">
+        <h3 class="footer__title">Contact</h3>
+        <div class="footer__email-container">
+        <p class="footer__subtitle">Email</p>
+        <p class="footer__email">info@travelsite.com</p>
+    </div>
+    </section>
+
+    <section class="footer__hours-container">
+        <h3 class="footer__title">Hours</h3>
+        <ul class="footer__hours">
+            <li><p class="footer__subtitle">Monday - Friday</p>
+                <p class="footer__hours--text">9:00 AM - 5:00 PM</p></li>
+        <li class="footer__hours-grouping"><p class="footer__subtitle">Saturday</p>
+            <p class="footer__hours--text">10:00 AM - 4:00 PM</p></li>
+        <li class="footer__hours-grouping"> <p class="footer__subtitle">Sunday</p>
+            <p class="footer__hours--text">Closed</p></li>
+    </ul>
+        
+    </section>
+
+    
+    <section class="footer__social-container">
+    <h3 class="footer__title">Social</h3>
+
+    <div class="footer__icons-container">
+    <a href="https://www.instagram.com" rel="external" target="_blank"><img src="../assets/images/icon-instagram.png" class="footer__icon-instagram"></a>
+    <a href="https://www.facebook.com" rel="external" target="_blank"><img src="../assets/images/icon-facebook.png" class="footer__icon-fb"></a>
+    <a href="https://www.twitter.com" rel="external" target="_blank"><img src="../assets/images/icon-twitter.png" class="footer__icon-twitter"></a>
+</div>
+</section>
+
+
     </footer>
+
+
+
+
 </body>
 </html>

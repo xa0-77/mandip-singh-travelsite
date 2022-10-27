@@ -1,1 +1,117 @@
 /* use BEM naming convention */
+
+
+/* Destination Pages:
+
+    They must have a title with the destination name
+    The provided image asset for the destination must take up the full width/height of the background for the page.
+    They must have 3 Days of Itinerary activities including:
+        A title for the day of the week
+        4 Itinerary activities (e.g. Breakfast, Lunch, Dinner, Snorkeling)
+        Activities must have a background of #FEFAF5
+ */
+
+ /* background image */
+ .destination--bg-hawaii {
+    background-image: url("../assets/images/hawaii.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 400px; */
+    height: 70vh;
+    /* height: 70%; */
+    background-size: cover;
+    display: inline-block;
+    /* width: 40%; */
+    width: 1280px;
+    position: relative;
+    top: 61px;
+}
+
+.destination--bg-iceland {
+    background-image: url("../assets/images/iceland.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 400px; */
+    height: 70vh;
+    /* height: 70%; */
+    background-size: cover;
+    display: inline-block;
+    /* width: 40%; */
+    width: 1280px;
+    position: relative;
+    top: 61px;
+}
+
+.destination--bg-greece {
+    background-image: url("../assets/images/greece.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 400px; */
+    height: 70vh;
+    /* height: 70%; */
+    background-size: cover;
+    display: inline-block;
+    /* width: 40%; */
+    width: 1280px;
+    position: relative;
+    top: 61px;
+}
+
+
+
+.destination__heading {
+    color: #FFF;
+    font-size: 60px;
+    margin-left: 5rem;
+    position: relative;
+    top: 15px;
+}
+
+.card--itinerary {
+    background-color: #FFF;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: none;
+}
+
+.card__itinerary-schedule {
+    list-style-type: none;
+    padding-left: 0;
+    /* align-items: center; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    /* background-color: #FEFAF5; */
+}
+
+.card__itinerary-schedule li {
+    background-color: #FEFAF5;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 18px;
+    /* padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px; */
+    margin-bottom: 10px;
+    /* font-weight: lighter; */
+}
+
+
+
+
+.itinerary__heading {
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+/* .card--padding{
+    
+} */
+
+.footer--position{
+    position: relative;
+    top: 40px;
+}

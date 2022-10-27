@@ -57,7 +57,7 @@ justify-content: space-between; */
 .nav__logo{
     text-decoration: none;
     color: #335576;
-    background-color: pink;
+    /* background-color: pink; */
     /* margin-left: 2.5rem; */
 }
 
@@ -107,6 +107,51 @@ justify-content: space-between; */
 
 }
 
+/* card components */
+.card__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card__block {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.card {
+    border-radius: 5px;
+    border: 1px sold rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    position: relative; /*position relative so that text can be placed in bottom right corner */
+    /* display: inline-flex; */
+}
+
+.card__anchor {
+    text-decoration: none;
+    /* position: absolute; */
+}
+
+.card--size {
+
+    /* 0.75 of width: 400px and height of 600px */
+    /* width: 300px;
+    height: 450px; */
+
+    /* width: 400px;
+    height: 600px; */
+    /* width: 200px;
+    height: 300px; */
+    /* divide orginal dimensions of pics by 8 */
+    width: 250px;
+    height: 375px;
+    /* width: 500px;
+    height: 750px; */
+}
+
+
+
+
+
 
 /* footer component */
 
@@ -120,11 +165,13 @@ justify-content: space-between; */
 
 .footer {
     background-color: #FEFAF5; 
+    /* background-color: orange; */
     display: flex;
     justify-content: space-around;
     padding-top: 40px;
     padding-bottom: 40px;
     /* align-content: baseline; */
+
 }
 
 

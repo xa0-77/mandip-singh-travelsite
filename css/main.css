@@ -30,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 35px;
     padding-bottom: 30px;
 }
 
@@ -135,7 +135,7 @@ The box shadow of the cards must be:
     /* position: absolute; */
 }
 
-.card__img {
+.card--size {
 
     /* 0.75 of width: 400px and height of 600px */
     /* width: 300px;
