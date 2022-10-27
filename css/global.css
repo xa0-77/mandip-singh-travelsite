@@ -1,31 +1,12 @@
-/* use BEM naming convention */
-
-body {
+.container {
     font-family: Verdana, Tahoma, sans-serif;
-    /* outline: 5px solid purple; */
     width: 1280px;
-}
-/* The base font for the site must be Verdana. */
-
-.container { 
-    /* width: 1280px; */
-    /* margin: 0 auto; */
+    /* to center the website */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* header component */
-
-
-
-/* Each page must have an identical Navigation Bar with the following style:
-
-    The Navigation Bar must be fixed to the top of the page
-    The background color must be #FFFFFF
-    The site logo/wordmark color must be #335576
-    The currently active page must be underlined using the color #DB7A4E */
-
-
-
-
 
 .header__nav {
     background-color: #FFF;
@@ -36,46 +17,20 @@ body {
     width: 1280px;
     display: flex;
     align-items: baseline;
-    z-index: 1; /* so that nav is not underneath the cards */
-    /* width: 90%; */
-    /*make sure to check on 1280px screen in inspector */
-justify-content: space-between;
-    /* height: 300px; */
-   
-    /* width: 100%;
-display: flex;
-align-items: baseline;
-justify-content: space-between; */
-    /* use these 3 lines below if position is not fixed */
-    /* display: flex;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    justify-content: space-between; */
- 
+    z-index: 1;
+    /* so that nav is not underneath the cards */
+    justify-content: space-between;
 }
 
-.nav__logo{
+.nav__logo {
     text-decoration: none;
     color: #335576;
-    /* background-color: pink; */
-    /* margin-left: 2.5rem; */
 }
 
 .nav__menu {
     list-style-type: none;
     display: inline-block;
     margin-right: 10rem;
-    
-    /* display:flex; */
-    /* height: 80px; */
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    /* display: flex;
-    align-items: center; */
-
-    /* justify-content: center; */
-    /* flex-direction: row; */
-
 }
 
 .menu__elements {
@@ -83,8 +38,6 @@ justify-content: space-between; */
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
-    /* margin: 0.625rem; */
-    /* justify-content: space-between; */
 }
 
 .menu__element-last {
@@ -93,18 +46,13 @@ justify-content: space-between; */
 
 .menu__elements--a-decoration {
     text-decoration: none;
+    color: #000;
 }
 
 .menu__elements--active {
-    /* text-decoration:underline;
-    text-decoration-color: #DB7A4E;
-    text-decoration-thickness: auto; */
-    /* text-decoration: underline solid #DB7A4E 20%; */
-    
     /* code from https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css */
     border-bottom: 4px solid #DB7A4E;
     padding-bottom: 10px;
-
 }
 
 /* card components */
@@ -120,63 +68,36 @@ justify-content: space-between; */
 
 .card {
     border-radius: 5px;
-    border: 1px sold rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    position: relative; /*position relative so that text can be placed in bottom right corner */
-    /* display: inline-flex; */
+    position: relative;
+    /*position relative so that text can be placed in bottom right corner */
 }
 
 .card__anchor {
     text-decoration: none;
-    /* position: absolute; */
 }
 
 .card--size {
-
-    /* 0.75 of width: 400px and height of 600px */
-    /* width: 300px;
-    height: 450px; */
-
-    /* width: 400px;
-    height: 600px; */
-    /* width: 200px;
-    height: 300px; */
     /* divide orginal dimensions of pics by 8 */
     width: 250px;
     height: 375px;
-    /* width: 500px;
-    height: 750px; */
 }
-
-
-
-
 
 
 /* footer component */
 
-
-
-/* Each page must have an identical footer with the following style:
-
-    The background color must be #FEFAF5
-    The footer titles and text must be the color #335576
-    The footer subtitles must be the color #DB7A4E */
-
 .footer {
-    background-color: #FEFAF5; 
-    /* background-color: orange; */
+    background-color: #FEFAF5;
     display: flex;
     justify-content: space-around;
     padding-top: 40px;
     padding-bottom: 40px;
-    /* align-content: baseline; */
-
 }
 
 
 
-.footer__title {
+.footer__title{
     color: #335576;
 }
 
@@ -188,7 +109,6 @@ justify-content: space-between; */
 .footer__email {
     font-size: 14px;
     color: #335576;
-    /* font-weight: 500; */
 }
 
 .footer__subtitle {
@@ -196,8 +116,6 @@ justify-content: space-between; */
     text-transform: uppercase;
     font-size: 10px;
 }
-
-
 
 /* footer hours */
 
@@ -250,7 +168,7 @@ justify-content: space-between; */
 }
 
 .footer__icon-twitter {
-    width:  26.6px;
+    width: 26.6px;
     height: 23.8px;
     margin-right: 15px;
 }

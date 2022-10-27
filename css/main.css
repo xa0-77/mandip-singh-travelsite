@@ -1,24 +1,11 @@
-/* use BEM naming convention */
-
-
-
 .main__content {
     /* to push the body content down
     code taken from: 
    https://stackoverflow.com/questions/24639086/navbar-fixed-top-pushes-content-on-page-up  */
     margin-top: 80px;
-
 }
 
 /* hero component */
-
-
-/* Home Page - Hero Section:
-
-    The hero background color must be #FEFAF5
-    The text content must be left aligned
-    The slogan color must be #335576
-    The ‘Get Started’ button background color must be #DB7A4E */
 
 .hero--bg-color {
     background-color: #FEFAF5;
@@ -45,14 +32,11 @@
     margin-bottom: 25px;
     font-size: 2rem;
     display: inline-block;
-    /* width: 60%; */
 }
 
 .hero__slogan {
     display: inline-block;
 }
-
-
 
 /* hero image */
 .hero__bg-img {
@@ -69,9 +53,8 @@
 .hero__button {
     color: #FFF;
     text-align: center;
-    background-color:#DB7A4E;
+    background-color: #DB7A4E;
     border-radius: 15px;
-    /* margin-top: 4rem; */
     margin-left: auto;
     margin-right: auto;
     padding-top: 0.4em;
@@ -83,73 +66,13 @@
     text-decoration: none;
 }
 
-
-
-
 /* recommendations component */
-
-
-
-
-/* Home Page - Recommendations Section:
-
-The recommendations title must have the color of #335576
-There will be 3 Cards, one for each destination (Iceland, Greece, Hawaii)
-The destination name must be in the bottom right corner of the card
-The border radius of the cards must be 5px
-The border of the cards must be 1px solid black with an opacity of 20%
-The box shadow of the cards must be:
-    Horizontal Offset: 0px
-    Vertical Offset: 4px
-    Blur: 4px
-    Color: Black, with an opacity of 20% */
-
 
 .recommendation__heading {
     font-size: 1.5rem;
     color: #335576;
     margin-left: 5rem;
     margin-top: 2.125rem;
-}
-
-.card__wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.card__block {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-}
-
-.card {
-    border-radius: 5px;
-    border: 1px sold rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    position: relative; /*position relative so that text can be placed in bottom right corner */
-    /* display: inline-flex; */
-}
-
-.card__anchor {
-    text-decoration: none;
-    /* position: absolute; */
-}
-
-.card--size {
-
-    /* 0.75 of width: 400px and height of 600px */
-    /* width: 300px;
-    height: 450px; */
-
-    /* width: 400px;
-    height: 600px; */
-    /* width: 200px;
-    height: 300px; */
-    /* divide orginal dimensions of pics by 8 */
-    width: 250px;
-    height: 375px;
-    /* width: 500px;
-    height: 750px; */
 }
 
 .card__text {
@@ -161,8 +84,4 @@ The box shadow of the cards must be:
     color: #FFF;
     font-size: 1.3rem;
     font-weight: bolder;
-
-    
-    /* display: inline-block; */
 }
-
