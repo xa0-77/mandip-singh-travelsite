@@ -2,9 +2,8 @@
     /* to push the body content down
     code taken from: 
    https://stackoverflow.com/questions/24639086/navbar-fixed-top-pushes-content-on-page-up  */
-    margin-top: 80px;
+    margin-top: 60px;
 }
-
 /* hero component */
 
 .hero--bg-color {
@@ -73,6 +72,15 @@
     color: #335576;
     margin-left: 5rem;
     margin-top: 2.125rem;
+}
+
+.card__anchor {
+    text-decoration: none;
+}
+
+/* diving deeper --hover animation */
+img.card--size.card:hover {
+    outline: 5px solid #DB7A4E;
 }
 
 .card__text {

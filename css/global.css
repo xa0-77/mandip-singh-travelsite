@@ -49,11 +49,13 @@
     color: #000;
 }
 
-.menu__elements--active {
+/* diving deeper-- hover animations to links */
+.menu__elements--active, .menu__elements--a-decoration:hover {
     /* code from https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css */
     border-bottom: 4px solid #DB7A4E;
     padding-bottom: 10px;
 }
+
 
 /* card components */
 .card__wrapper {
@@ -74,16 +76,11 @@
     /*position relative so that text can be placed in bottom right corner */
 }
 
-.card__anchor {
-    text-decoration: none;
-}
-
 .card--size {
     /* divide orginal dimensions of pics by 8 */
     width: 250px;
     height: 375px;
 }
-
 
 /* footer component */
 
@@ -94,8 +91,6 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
-
 
 .footer__title{
     color: #335576;
@@ -142,7 +137,6 @@
     margin-right: 15px;
     color: #335576;
 }
-
 
 
 .footer__contact-container {

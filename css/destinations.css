@@ -1,3 +1,11 @@
+
+.main__content-destinations {
+    /* to push the body content down
+    code taken from: 
+   https://stackoverflow.com/questions/24639086/navbar-fixed-top-pushes-content-on-page-up  */
+    margin-top: 10px;
+}
+
 /* background image */
 .destination--bg-hawaii {
     background-image: url("../assets/images/hawaii.jpg");
