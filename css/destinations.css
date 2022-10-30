@@ -1,5 +1,4 @@
-
-.main__content-destinations {
+.content-push-down {
     /* to push the body content down
     code taken from: 
    https://stackoverflow.com/questions/24639086/navbar-fixed-top-pushes-content-on-page-up  */
@@ -7,7 +6,7 @@
 }
 
 /* background image */
-.destination--bg-hawaii {
+.bg-hawaii {
     background-image: url("../assets/images/hawaii.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +18,7 @@
     top: 61px;
 }
 
-.destination--bg-iceland {
+.bg-iceland {
     background-image: url("../assets/images/iceland.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -31,7 +30,7 @@
     top: 61px;
 }
 
-.destination--bg-greece {
+.bg-greece {
     background-image: url("../assets/images/greece.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -61,12 +60,12 @@
     list-style-type: none;
 }
 
-.card__itinerary-schedule {
+.card__list {
     list-style-type: none;
     padding-left: 0;
 }
 
-.card__itinerary-schedule li {
+.card__list li {
     background-color: #FEFAF5;
     box-sizing: border-box;
     text-align: center;
@@ -85,7 +84,7 @@
 
 /* footer component */
 
-.footer--position {
+.footer-position {
     position: relative;
     top: 40px;
 }

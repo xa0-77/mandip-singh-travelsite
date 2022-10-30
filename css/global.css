@@ -2,13 +2,14 @@
     font-family: Verdana, Tahoma, sans-serif;
     width: 1280px;
     /* to center the website */
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0;
 }
 
 /* header component */
 
-.header__nav {
+.main-nav {
     background-color: #FFF;
     position: fixed;
     top: 0;
@@ -17,8 +18,8 @@
     width: 1280px;
     display: flex;
     align-items: baseline;
+ /* so that nav is not underneath the cards */
     z-index: 1;
-    /* so that nav is not underneath the cards */
     justify-content: space-between;
 }
 
@@ -33,37 +34,36 @@
     margin-right: 10rem;
 }
 
-.menu__elements {
+.menu__item {
     display: inline;
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.menu__element-last {
+.menu__last-item {
     padding-right: 0;
 }
 
-.menu__elements--a-decoration {
+.menu__item-link{
     text-decoration: none;
-    color: #000;
 }
 
 /* diving deeper-- hover animations to links */
-.menu__elements--active, .menu__elements--a-decoration:hover {
+
+.menu__item--active, .menu__item-link:hover {
     /* code from https://stackoverflow.com/questions/1734618/how-to-increase-the-gap-between-text-and-underlining-in-css */
     border-bottom: 4px solid #DB7A4E;
     padding-bottom: 10px;
 }
 
-
 /* card components */
-.card__wrapper {
+.card-wrapper {
     display: flex;
     justify-content: center;
 }
 
-.card__block {
+.card--spacing {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
@@ -72,14 +72,12 @@
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    position: relative;
     /*position relative so that text can be placed in bottom right corner */
-}
-
-.card--size {
+    position: relative;
     /* divide orginal dimensions of pics by 8 */
     width: 250px;
     height: 375px;
+    
 }
 
 /* footer component */
@@ -90,9 +88,15 @@
     justify-content: space-around;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-bottom: 0;
 }
 
-.footer__title{
+.footer__contact-container {
+    position: relative;
+    left: 125px;
+}
+
+.footer__heading{
     color: #335576;
 }
 
@@ -101,15 +105,15 @@
     top: 12px;
 }
 
-.footer__email {
-    font-size: 14px;
-    color: #335576;
-}
-
 .footer__subtitle {
     color: #DB7A4E;
     text-transform: uppercase;
     font-size: 10px;
+}
+
+.footer__email {
+    font-size: 14px;
+    color: #335576;
 }
 
 /* footer hours */
@@ -138,7 +142,6 @@
     color: #335576;
 }
 
-
 .footer__contact-container {
     position: relative;
     left: 125px;
@@ -147,6 +150,11 @@
 .footer__social-container {
     position: relative;
     right: 102px;
+}
+
+.footer__icons-container {
+    position: relative;
+    top: 30px;
 }
 
 .footer__icon-instagram {
@@ -167,7 +175,3 @@
     margin-right: 15px;
 }
 
-.footer__icons-container {
-    position: relative;
-    top: 30px;
-}

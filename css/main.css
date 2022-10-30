@@ -1,4 +1,4 @@
-.main__content {
+main {
     /* to push the body content down
     code taken from: 
    https://stackoverflow.com/questions/24639086/navbar-fixed-top-pushes-content-on-page-up  */
@@ -6,7 +6,7 @@
 }
 /* hero component */
 
-.hero--bg-color {
+.hero-bg-color {
     background-color: #FEFAF5;
 }
 
@@ -20,25 +20,25 @@
     padding-bottom: 30px;
 }
 
-.hero__header {
+.hero-text {
     width: 44%;
     text-align: left;
     display: inline;
 }
 
-.hero__heading--text {
+.hero-heading {
     padding-bottom: 0;
     margin-bottom: 25px;
     font-size: 2rem;
     display: inline-block;
 }
 
-.hero__slogan {
+.hero-slogan {
     display: inline-block;
 }
 
 /* hero image */
-.hero__bg-img {
+.hero-bg-img {
     background-image: url("../assets/images/hero.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -48,8 +48,7 @@
     width: 40%;
 }
 
-
-.hero__button {
+.hero-button {
     color: #FFF;
     text-align: center;
     background-color: #DB7A4E;
@@ -65,21 +64,19 @@
     text-decoration: none;
 }
 
-/* recommendations component */
-
-.recommendation__heading {
+.recommendation-heading {
     font-size: 1.5rem;
     color: #335576;
     margin-left: 5rem;
     margin-top: 2.125rem;
 }
 
-.card__anchor {
+.card__link {
     text-decoration: none;
 }
 
 /* diving deeper --hover animation */
-img.card--size.card:hover {
+img.card:hover {
     outline: 5px solid #DB7A4E;
 }
 
