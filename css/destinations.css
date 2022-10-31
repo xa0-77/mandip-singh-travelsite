@@ -2,52 +2,40 @@
     /* to push the body content down
     code taken from: 
    https://stackoverflow.com/questions/24639086/navbar-fixed-top-pushes-content-on-page-up  */
-    margin-top: 10px;
+
+    margin-top: 0.625rem;
+}
+
+.bg-img-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    background-size: cover;
+    display: inline-block;
+    width: 80rem;
+    position: relative;
+    top: 3.8125rem;
 }
 
 /* background image */
 .bg-hawaii {
-    background-image: url("../assets/images/hawaii.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 70vh;
-    background-size: cover;
-    display: inline-block;
-    width: 1280px;
-    position: relative;
-    top: 61px;
+    background-image: url("../assets/images/hawaii.jpg");  
 }
 
 .bg-iceland {
     background-image: url("../assets/images/iceland.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 70vh;
-    background-size: cover;
-    display: inline-block;
-    width: 1280px;
-    position: relative;
-    top: 61px;
 }
 
 .bg-greece {
     background-image: url("../assets/images/greece.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 70vh;
-    background-size: cover;
-    display: inline-block;
-    width: 1280px;
-    position: relative;
-    top: 61px;
 }
 
 .destination__heading {
     color: #FFF;
-    font-size: 60px;
+    font-size: 3.75rem;
     margin-left: 5rem;
     position: relative;
-    top: 15px;
+    top: 0.9375rem;
 }
 
 /* card component */
@@ -55,8 +43,8 @@
 .card--itinerary {
     background-color: #FFF;
     box-sizing: border-box;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
     list-style-type: none;
 }
 
@@ -69,22 +57,22 @@
     background-color: #FEFAF5;
     box-sizing: border-box;
     text-align: center;
-    padding: 10px 40px;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    padding: 0.625rem 2.5rem;
+    font-size: 1.125rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.9375rem;
 }
 
 .itinerary__heading {
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
-    border-bottom: 3px solid black;
-    margin-bottom: 25px;
+    border-bottom: 0.1875rem solid #000;
+    margin-bottom: 1.5625rem;
 }
 
 /* footer component */
 
 .footer-position {
     position: relative;
-    top: 40px;
+    top: 2.5rem;
 }

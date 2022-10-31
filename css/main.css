@@ -2,8 +2,9 @@ main {
     /* to push the body content down
     code taken from: 
    https://stackoverflow.com/questions/24639086/navbar-fixed-top-pushes-content-on-page-up  */
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
+
 /* hero component */
 
 .hero-bg-color {
@@ -16,8 +17,8 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 35px;
-    padding-bottom: 30px;
+    padding-top: 2.1875rem;
+    padding-bottom: 1.875rem;
 }
 
 .hero-text {
@@ -28,7 +29,7 @@ main {
 
 .hero-heading {
     padding-bottom: 0;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
     font-size: 2rem;
     display: inline-block;
 }
@@ -42,7 +43,7 @@ main {
     background-image: url("../assets/images/hero.png");
     background-repeat: no-repeat;
     background-position: center;
-    height: 400px;
+    height: 25rem;
     background-size: contain;
     display: inline-block;
     width: 40%;
@@ -52,7 +53,7 @@ main {
     color: #FFF;
     text-align: center;
     background-color: #DB7A4E;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     margin-left: auto;
     margin-right: auto;
     padding-top: 0.4em;
@@ -77,15 +78,15 @@ main {
 
 /* diving deeper --hover animation */
 img.card:hover {
-    outline: 5px solid #DB7A4E;
+    outline: 0.3125rem solid #DB7A4E;
 }
 
 .card__text {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    bottom: 61px;
-    right: 20px;
+    bottom: 3.8125rem;
+    right: 1.25rem;
     color: #FFF;
     font-size: 1.3rem;
     font-weight: bolder;
